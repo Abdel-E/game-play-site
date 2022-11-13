@@ -1,15 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
+import thumbnail from './assets/pong-thumb.png';
+
+import GameBlock from './components/gameblock';
+
+function App(game) {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Upload your python game in .exe format and play it here!
-        </p>
-        <button className="uploadButton" onClick={() => alert('Uploaded!')}>Upload your exe!</button>
+        <h1>Play other Students Games!</h1>
       </header>
+      <div className="gameList">
+        <GameBlock
+          title="Pong"
+          thumbnail={thumbnail}
+          description="A classic game of Pong"
+          downloadLink="./assets/pong.exe"
+        />
+      </div>
     </div>
   );
 }
