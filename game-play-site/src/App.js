@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 
 import thumbnail from './assets/pong-thumb.png';
-
 import GameBlock from './components/gameblock';
 
 function App(game) {
@@ -17,6 +16,12 @@ function App(game) {
           thumbnail={thumbnail}
           description="A classic game of Pong"
           downloadLink="./assets/pong.exe"
+        />
+        <GameBlock
+          title="Snake"
+          thumbnail={require('./assets/snake-thumb.png')}
+          description="A classic game of Snake"
+          downloadLink="./assets/snake.exe"
         />
       </div>
     </div>
