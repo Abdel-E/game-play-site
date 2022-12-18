@@ -1,84 +1,86 @@
 .gameblock {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 2.5%;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
 
-    width: auto;
-    height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    background-color: #00ff15;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
+  width: auto;
+  height: auto;
+
+  background-color: #00ff15;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .gameblock:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .gameblock img {
-    width: auto;
-    height: 400px;
-    object-fit: fill;
-    border-radius: 10px;
+  width: auto;
+  height: 400px;
+  object-fit: fill;
+  border-radius: 10px;
 }
 
 .gameblock h3 {
-    margin: 0;
-    margin-left: 10px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #333;
-    flex-direction: column;
+  margin: 0;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  flex-direction: column;
 }
 
 .gameblock p {
-    margin: 0;
-    margin-left: 10px;
-    padding: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #333;
-    flex-direction: column;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  flex-direction: column;
 }
 
 .gameblock a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: rgb(0, 255, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: rgb(0, 255, 55);
+}
+
+.buttonDiv {
+  padding: 10px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  margin-left: auto;
+  margin-right: 10px;
 }
 
 .downloadButton {
-    background-color: #000000;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-    margin-left: auto;
-    margin-right: 10px;
-
-    font-family: 'Times New Roman', Times, serif;
+  background-color: #df3c1f;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-.downloadButton:hover a{
-    color: yellow;
+.downloadButton:hover {
+  background-color: #ff6e6e;
 }
 
 /* .gameblockImage {

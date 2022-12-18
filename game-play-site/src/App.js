@@ -12,16 +12,28 @@ function App(game) {
       </header>
       <div className="gameList">
         <GameBlock
+          gameFile={require('./assets/pong.exe')}
           title="Pong"
           thumbnail={thumbnail}
           description="A classic game of Pong"
-          downloadLink="./assets/pong.exe"
         />
         <GameBlock
-          title="Snake"
-          thumbnail={require('./assets/snake-thumb.png')}
-          description="A classic game of Snake"
-          downloadLink="./assets/snake.exe"
+          gameFile={require('./assets/jet.exe')}
+          title="Jet Fighter"
+          thumbnail={require('./assets/jet-thumb.png')}
+          description="A action packed game of jet fighting"
+        />
+        <GameBlock
+          gameFile={require('./assets/motel.exe')}
+          title="Motel Madness"
+          thumbnail={require('./assets/motel-thumb.png')}
+          description="A mysterious motel search"
+        />
+        <GameBlock
+          gameFile={require('./assets/rocio.exe')}
+          title="Haunted House Adventure"
+          thumbnail={require('./assets/haunted-thumb.png')}
+          description="A deep dive into a haunted house"
         />
       </div>
     </div>
