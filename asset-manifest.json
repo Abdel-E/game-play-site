@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/game-play-site/static/css/main.c4f4a4c5.css",
+    "main.js": "/game-play-site/static/js/main.24e9ce68.js",
+    "static/js/787.cfde9494.chunk.js": "/game-play-site/static/js/787.cfde9494.chunk.js",
+    "static/media/pong.exe": "/game-play-site/static/media/pong.0d613908296802fe4252.exe",
+    "static/media/rocio.exe": "/game-play-site/static/media/rocio.95bd7b32ef926a817fe1.exe",
+    "static/media/jet.exe": "/game-play-site/static/media/jet.52c9a8b04f6d80e191b6.exe",
+    "static/media/motel.exe": "/game-play-site/static/media/motel.1790a949489a6883640b.exe",
+    "static/media/haunted-thumb.png": "/game-play-site/static/media/haunted-thumb.d0bf9c5d8516e918e70b.png",
+    "static/media/jet-thumb.png": "/game-play-site/static/media/jet-thumb.89d42cb9b6b02f1f9637.png",
+    "static/media/motel-thumb.png": "/game-play-site/static/media/motel-thumb.4bc98b4816ac0f1565c1.png",
+    "static/media/pong-thumb.png": "/game-play-site/static/media/pong-thumb.0001b7c35098528d2365.png",
+    "index.html": "/game-play-site/index.html",
+    "main.c4f4a4c5.css.map": "/game-play-site/static/css/main.c4f4a4c5.css.map",
+    "main.24e9ce68.js.map": "/game-play-site/static/js/main.24e9ce68.js.map",
+    "787.cfde9494.chunk.js.map": "/game-play-site/static/js/787.cfde9494.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4f4a4c5.css",
+    "static/js/main.24e9ce68.js"
+  ]
+}
